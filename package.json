@@ -1,0 +1,39 @@
+{
+  "name": "express-js-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for ExpressJS using NodeJS v18.20.5 or later",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "npx eslint .",
+    "chk": "npx depcheck"
+  },
+  "author": "Ubaid",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.26.1",
+    "ngrok": "^4.3.3",
+    "nodemon": "^3.1.9",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "formidable": "^2.0.1",
+    "helmet": "^6.0.0",
+    "joi": "^17.6.2",
+    "moment": "^2.29.4",
+    "pg": "^8.8.0",
+    "pino": "^8.6.1",
+    "pino-pretty": "^9.1.1",
+    "uuid": "^9.0.0"
+  }
+}
