@@ -2,7 +2,7 @@ const formidable = require('formidable')
 const logger = require('../libs/logger')
 
 function parseBody(req, res, next) {
-  if (req.method === 'POST' && req.headers['content-type'] === 'text/plain' && req.path === '/callback/winpay') {
+  if (req.method === 'POST' && req.headers['content-type'] === 'text/plain') {
     next()
     return
   }
